@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+
+/* Navber Style Satrt  */
+
+.head-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    gap: 80px;
+}
+
+.nav-ber ul {
+    display: flex;
+    gap: 60px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.nav-ber {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.nav-ber ul a {
+    text-decoration: none;
+    color: #182327;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.profile input {
+    width: 330px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #D8E0E2;
+}
+
+.profile img {
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile a {
+    width: 107px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #182327;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+
+
+}
+
+
+/* Navber Style End  */
+
+
+/* Hero style start */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+            */
+    box-shadow: 0px 44px 64px -40px rgba(28, 175, 219, 0.39);
+    background: linear-gradient(180deg, #02B5EA 0%, rgba(2, 181, 234, 0.15) 100%);
+}
+
+.hero-content h2 {
+    width: 570px;
+    color: #182327;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 76px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    width: 570px;
+    color: #182327;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.hero-content a {
+    text-decoration: none;
+    width: 152px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #182327;
+    color: #FFF;
+    padding: 10px;
+}
+
+.hero-img {
+    margin-left: 200px;
+}
+
+.hero-content {
+    margin-left: 150px;
+}
+
+/* Hero style end */
+
+
+/* Provide style start */
+.provide-heading h2 {
+    width: 570px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+}
+
+.provide-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+
+.provide-content {
+    margin-left: 80px;
+    margin-top: 100px;
+
+}
+
+.provide-content h3 {
+    color: #182327;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.provide-content p {
+    color: #5D696D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0;
+    width: 470px;
+}
+
+.provide-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.provide-btn a {
+    text-decoration: none;
+    width: 146px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #182327;
+    color: #FFF;
+    padding: 20px;
+}
+
+.provide-btn p {
+    color: #182327;
+
+
+    font-size: 18px;
+
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.chips {
+    margin-left: 1450px;
+    margin-top: 100px;
+}
+
+/* Provide style end */
+
+/* Best chips style start */
+.best-chips-header {
+    align-items: center;
+    margin-bottom: 40px;
+}
+.best-chips-header h2 {
+    color: #182327;
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.best-chips-header p {
+    color: #5D696D;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+.plus-img img {
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.chips-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.chips-content img {
+    width: 106px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.chpis-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-left: 150px;
+}
+
+.chips-btn a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #182327;
+    padding: 15px 36px;
+    text-decoration: none;
+    margin: 80px 0;
+}
+
+.chips-btn {
+    margin-top: 80px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+/* Best chips style end */
+
+
+/* populer chips style start */
+.section-1 h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.play-vedio {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.populer-section {
+    display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    
+    .section-2 h2 {
+        color: #182327;
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 70px;
+    }
+    
+    .section-2 h4 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    
+    .slider {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    
+    /* populer chips style end */
+    
+    
+    /* coustomer chips style start */
+    
+    .coustomer-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px;
+    }
+    
+    .coustomer-content h2 {
+        color: #182327;
+        font-size: 42px;
+        font-weight: 700;
+        width: 570px;
+        margin-bottom: 70px;
+    
+    }
+    
+    .coustomer-content p {
+        color: #182327;
+        width: 570px;
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 36px;
+        margin-bottom: 50px;
+    }
+    
+    .arrow {
+        display: flex;
+    }
+    
+    .arrow-content h5 {
+        color: #182327;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+    }
+    
+    .arrow-content p {
+        color: #182327;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        
+    }
+    
+    .arrow-logo img {
+        width: 124px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+    
+    .coustomer-img img {
+        width: 426px;
+        height: 550px;
+        flex-shrink: 0;
+    }
+    .contaoner-section{
+        background-color: #80E2FF;
+        
+    }
+    .solid{
+        border: 1px solid  #33D1FF;
+        width: 500px;
+        height: 2px;
+        margin-bottom: 40px;
+    }
+/* coustomer chips style end */
+
+/* Find store  chips style start */
+.store {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding:100px 0 ;
+}
+
+.store h2 {
+    color: #182327;
+    text-align: center;
+    width: 470px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.store p {
+    width: 470px;
+    color: #182327;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.store a{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #182327;
+    padding: 16px 36px;
+    border-radius: 10px;
+    width: 159px;
+    height: 60px;
+}
+.Find-store{
+    background-color:rgb(236, 234, 65) ;
+    background-image: url(./images/bg-chips.png);
+}
+/* Find store  chips style end */
+
+/* footer style start */
+.footer{
+    background-color:#FFF7E3 ;
+}
+
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.footer-img img{
+height: 400PX;
+}
+.footer-nav ul{
+    display: flex;
+    gap: 20px;
+    }
+    
+    .footer-nav a {
+        text-decoration: none;
+        color: #182327;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer-media h4 {
+        color: #182327;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+/* footer style end */
